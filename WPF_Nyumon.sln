@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate", "DataTemplate\DataTemplate.csproj", "{CCA497EE-843A-4BE0-AE46-412AD17C185C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonControl", "ButtonControl\ButtonControl.csproj", "{1512046C-203B-4F16-A577-39EF8A9A4B3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{CCA497EE-843A-4BE0-AE46-412AD17C185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA497EE-843A-4BE0-AE46-412AD17C185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA497EE-843A-4BE0-AE46-412AD17C185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1512046C-203B-4F16-A577-39EF8A9A4B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1512046C-203B-4F16-A577-39EF8A9A4B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1512046C-203B-4F16-A577-39EF8A9A4B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1512046C-203B-4F16-A577-39EF8A9A4B3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
