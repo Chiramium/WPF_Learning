@@ -35,7 +35,7 @@ namespace DataTemplate
             var star = new Star
             {
                 Name = "星",
-                Number = 5,
+                Number = 8,
                 Picture = new BitmapImage(new Uri("Resources/star.png", UriKind.Relative))
             };
 
