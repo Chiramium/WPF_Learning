@@ -82,6 +82,7 @@ namespace DataGridControl
                     e.Column.Header = "承認済み";
                     e.Column.DisplayIndex = 2;
                     break;
+
                 default:
                     throw new InvalidOperationException();
             }
