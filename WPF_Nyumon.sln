@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridControl", "DataGrid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid_Template", "DataGrid_Template\DataGrid_Template.csproj", "{449468CC-F2D8-4AF7-A4B3-2EF8EA14457B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeView.csproj", "{F282D79B-2481-44B8-9372-288D71FD440A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView_ItemTemplate", "TreeView_ItemTemplate\TreeView_ItemTemplate.csproj", "{3AF9B79A-6F08-46C1-B1CB-CD5DDE44DF17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{449468CC-F2D8-4AF7-A4B3-2EF8EA14457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449468CC-F2D8-4AF7-A4B3-2EF8EA14457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449468CC-F2D8-4AF7-A4B3-2EF8EA14457B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F282D79B-2481-44B8-9372-288D71FD440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F282D79B-2481-44B8-9372-288D71FD440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F282D79B-2481-44B8-9372-288D71FD440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F282D79B-2481-44B8-9372-288D71FD440A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF9B79A-6F08-46C1-B1CB-CD5DDE44DF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF9B79A-6F08-46C1-B1CB-CD5DDE44DF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF9B79A-6F08-46C1-B1CB-CD5DDE44DF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF9B79A-6F08-46C1-B1CB-CD5DDE44DF17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
