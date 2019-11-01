@@ -60,5 +60,14 @@
                 </TreeViewItem.Header>
             </TreeViewItem>
         </TreeViewItem>
+        <TreeViewItem>
+            <TreeViewItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Navy" Width="15" Height="15" />
+                    <TextBlock Text="矢印アイコン" Margin="5,0" />
+                    <Rectangle Fill="Navy" Width="15" Height="15" />
+                </StackPanel>
+            </TreeViewItem.Header>
+        </TreeViewItem>
     </TreeView>
 </Window>
