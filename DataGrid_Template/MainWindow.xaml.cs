@@ -19,7 +19,7 @@ namespace DataGrid_Template
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
     /// </summary>
-    
+
     //  性別
     public enum Gender
     {
