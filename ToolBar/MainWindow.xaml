@@ -16,6 +16,7 @@
             <CheckBox Content="item5" />
         </ToolBar>
         <ToolBar>
+            <TextBox Text="item5.5" />
             <Button Content="item6" />
             <Button Content="item7" />
             <Button Content="item8" />

@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBar", "ToolBar\ToolBar.csproj", "{59686F28-0B74-4FB5-866C-6187935D9248}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{44F9FECB-6225-4D77-9633-82D1F0D4C899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "ComboBox\ComboBox.csproj", "{373581D4-9753-41CD-A550-958B31942207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{59686F28-0B74-4FB5-866C-6187935D9248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59686F28-0B74-4FB5-866C-6187935D9248}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59686F28-0B74-4FB5-866C-6187935D9248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F9FECB-6225-4D77-9633-82D1F0D4C899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F9FECB-6225-4D77-9633-82D1F0D4C899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F9FECB-6225-4D77-9633-82D1F0D4C899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F9FECB-6225-4D77-9633-82D1F0D4C899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373581D4-9753-41CD-A550-958B31942207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373581D4-9753-41CD-A550-958B31942207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373581D4-9753-41CD-A550-958B31942207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373581D4-9753-41CD-A550-958B31942207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
