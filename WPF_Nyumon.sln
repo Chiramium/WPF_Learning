@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView_ItemTemplate", "Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{D7F15B17-74AA-4BC5-AC7E-29B40E6F65C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextMenu", "ContextMenu\ContextMenu.csproj", "{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{D7F15B17-74AA-4BC5-AC7E-29B40E6F65C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F15B17-74AA-4BC5-AC7E-29B40E6F65C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F15B17-74AA-4BC5-AC7E-29B40E6F65C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
