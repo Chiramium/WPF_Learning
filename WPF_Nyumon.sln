@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextMenu", "ContextMenu\ContextMenu.csproj", "{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{3A17A46B-1ADD-4BCE-91DE-3EBC60E728FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBar", "ToolBar\ToolBar.csproj", "{59686F28-0B74-4FB5-866C-6187935D9248}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79D4A8C-B8FE-4D39-A1D8-8E591B5F37EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A17A46B-1ADD-4BCE-91DE-3EBC60E728FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A17A46B-1ADD-4BCE-91DE-3EBC60E728FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A17A46B-1ADD-4BCE-91DE-3EBC60E728FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A17A46B-1ADD-4BCE-91DE-3EBC60E728FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59686F28-0B74-4FB5-866C-6187935D9248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59686F28-0B74-4FB5-866C-6187935D9248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59686F28-0B74-4FB5-866C-6187935D9248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59686F28-0B74-4FB5-866C-6187935D9248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
