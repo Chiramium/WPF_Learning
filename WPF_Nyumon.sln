@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonControl", "RadioButtonControl\RadioButtonControl.csproj", "{5AED8F58-78BC-4B95-8FDE-12E5CCFB74C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderControl", "SliderControl\SliderControl.csproj", "{90C00136-8F1F-4D30-9E01-10E9A32583AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{5AED8F58-78BC-4B95-8FDE-12E5CCFB74C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AED8F58-78BC-4B95-8FDE-12E5CCFB74C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AED8F58-78BC-4B95-8FDE-12E5CCFB74C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
