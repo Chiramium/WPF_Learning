@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonControl", "Radio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderControl", "SliderControl\SliderControl.csproj", "{90C00136-8F1F-4D30-9E01-10E9A32583AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabUI", "TabUI\TabUI.csproj", "{58B6BF20-9988-412F-825D-7A84520E40D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDialog", "FileDialog\FileDialog.csproj", "{614F070A-656F-4CB8-87CF-6477572B3479}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C00136-8F1F-4D30-9E01-10E9A32583AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B6BF20-9988-412F-825D-7A84520E40D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B6BF20-9988-412F-825D-7A84520E40D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B6BF20-9988-412F-825D-7A84520E40D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B6BF20-9988-412F-825D-7A84520E40D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614F070A-656F-4CB8-87CF-6477572B3479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614F070A-656F-4CB8-87CF-6477572B3479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614F070A-656F-4CB8-87CF-6477572B3479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614F070A-656F-4CB8-87CF-6477572B3479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
