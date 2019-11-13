@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabUI", "TabUI\TabUI.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDialog", "FileDialog\FileDialog.csproj", "{614F070A-656F-4CB8-87CF-6477572B3479}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayInformationControls", "DisplayInformationControls\DisplayInformationControls.csproj", "{B53372C6-A50F-448C-B638-0ECAAAB63FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopupControl", "PopupControl\PopupControl.csproj", "{CAA3DBE1-FD97-48B9-88F8-AA9E68727F1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{614F070A-656F-4CB8-87CF-6477572B3479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614F070A-656F-4CB8-87CF-6477572B3479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614F070A-656F-4CB8-87CF-6477572B3479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53372C6-A50F-448C-B638-0ECAAAB63FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53372C6-A50F-448C-B638-0ECAAAB63FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53372C6-A50F-448C-B638-0ECAAAB63FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53372C6-A50F-448C-B638-0ECAAAB63FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA3DBE1-FD97-48B9-88F8-AA9E68727F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA3DBE1-FD97-48B9-88F8-AA9E68727F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA3DBE1-FD97-48B9-88F8-AA9E68727F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA3DBE1-FD97-48B9-88F8-AA9E68727F1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
