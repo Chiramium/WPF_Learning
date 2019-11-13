@@ -1,0 +1,22 @@
+﻿<Window x:Class="ToolTipControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolTipControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400">
+    <StackPanel>
+        <Button Content="Button" ToolTip="ToolTip" />
+        <Button Content="Button">
+            <Button.ToolTip>
+                <ToolTip>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Resources/star.png" Height="100" />
+                        <TextBlock Text="星" />
+                    </StackPanel>
+                </ToolTip>
+            </Button.ToolTip>
+        </Button>
+    </StackPanel>
+</Window>
