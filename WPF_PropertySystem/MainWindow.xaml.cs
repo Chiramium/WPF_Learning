@@ -21,11 +21,31 @@ namespace WPF_PropertySystem
 
     public class Person : DependencyObject
     {
-        public static readonly DependencyProperty NameProperty = DependencyProperty.Register(
+        public static readonly DependencyProperty NameProperty =
+            DependencyProperty.Register(
             "Name", //  プロパティ名を指定
             typeof(string), //  プロパティの型を指定
             typeof(Person), //   プロパティを所有する型を指定
             new PropertyMetadata("default name"));  //  メタデータを指定    ここではデフォルト値を設定
+
+        public static readonly DependencyProperty ChildrenProperty =
+            DependencyProperty.Register(
+                "Children",
+                typeof(List<Person>),
+                typeof(Person),
+                new PropertyMetadata(new List<Person>()));  //  デフォルト値は共有
+
+        public List<Person> Children
+        {
+            get { return (List<Person>)GetValue(ChildrenProperty); }
+            set { SetValue(ChildrenProperty, value); }
+        }
+
+        public Person()
+        {
+            //  デフォルト値をコンストラクタで指定できるようにする
+            this.Children = new List<Person>();
+        }
     }
 
     public partial class MainWindow : Window
@@ -34,6 +54,7 @@ namespace WPF_PropertySystem
         {
             InitializeComponent();
 
+            /*
             //  GetValue, SetValueの使用例
             var p = new Person();
             //  値を取得
@@ -42,6 +63,17 @@ namespace WPF_PropertySystem
             p.SetValue(Person.NameProperty, "ちらみ");
             //  値を取得
             Console.WriteLine(p.GetValue(Person.NameProperty));
+            */
+
+            //  Childrenプロパティの使用
+            var p1 = new Person();
+            var p2 = new Person();
+
+            p1.Children.Add(new Person());
+            p2.Children.Add(new Person());
+
+            Console.WriteLine("p1.Children.Count = {0}", p1.Children.Count);
+            Console.WriteLine("p2.Children.Count = {0}", p2.Children.Count);
         }
     }
 }
