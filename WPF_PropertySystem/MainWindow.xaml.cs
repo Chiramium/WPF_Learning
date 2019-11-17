@@ -35,16 +35,16 @@ namespace WPF_PropertySystem
                 typeof(Person),
                 new PropertyMetadata(new List<Person>()));  //  デフォルト値は共有
 
-        public List<Person> Children
-        {
-            get { return (List<Person>)GetValue(ChildrenProperty); }
-            set { SetValue(ChildrenProperty, value); }
-        }
-
         public Person()
         {
             //  デフォルト値をコンストラクタで指定できるようにする
             this.Children = new List<Person>();
+        }
+
+        public List<Person> Children
+        {
+            get { return (List<Person>)GetValue(ChildrenProperty); }
+            set { SetValue(ChildrenProperty, value); }
         }
     }
 
